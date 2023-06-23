@@ -1,0 +1,589 @@
+2022-10-24T23:18:26.443407Z (0x00003f48) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig: Starting agent on port 5000
+2022-10-24T23:18:26.453682Z (0x00003f48) [warning] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Cannot locate device name 'ur5e', trying default
+2022-10-24T23:18:26.453682Z (0x00003f48) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Assigning default device UR5e to adapter
+2022-10-24T23:18:26.458249Z (0x00003f48) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: shdr: Adding adapter for UR5e: ur5e
+2022-10-24T23:18:31.222643Z (0x00007700) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:18:36.684465Z (0x00007700) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:60029]: GET /
+2022-10-24T23:18:36.808833Z (0x00007700) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:60029]: GET /favicon.ico
+2022-10-24T23:18:36.808833Z (0x00007700) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-24T23:18:36.808833Z (0x00007700) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-24T23:18:36.808833Z (0x00007700) [warning] SessionImpl::requested->Session::fail: Operation failed: 127.0.0.1: Cannot find handler for: GET /favicon.ico
+2022-10-24T23:18:41.225724Z (0x00007700) [info] : reconnect: retrying connection
+2022-10-24T23:18:45.330614Z (0x00007700) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:18:55.346225Z (0x00007700) [info] : reconnect: retrying connection
+2022-10-24T23:18:59.430924Z (0x00007700) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:19:06.687410Z (0x00007700) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:19:06.687410Z (0x00007700) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:19:06.826389Z (0x00007700) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:19:06.826389Z (0x00007700) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:19:06.949899Z (0x00007700) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:19:06.949899Z (0x00007700) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:19:09.437266Z (0x00007700) [info] : reconnect: retrying connection
+2022-10-24T23:19:12.213446Z (0x00007700) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:60045]: GET /current
+2022-10-24T23:19:13.534083Z (0x00007700) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:19:23.545847Z (0x00007700) [info] : reconnect: retrying connection
+2022-10-24T23:19:27.644315Z (0x00007700) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:20:42.098605Z (0x00006a38) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig: Starting agent on port 5000
+2022-10-24T23:20:42.108450Z (0x00006a38) [warning] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Cannot locate device name 'ur5e', trying default
+2022-10-24T23:20:42.108450Z (0x00006a38) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Assigning default device UR5e to adapter
+2022-10-24T23:20:42.108450Z (0x00006a38) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: shdr: Adding adapter for UR5e: ur5e
+2022-10-24T23:20:44.982348Z (0x000041d4) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:60087]: GET /
+2022-10-24T23:20:46.192288Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:20:48.194869Z (0x000041d4) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:60087]: GET /current
+2022-10-24T23:20:56.200479Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:21:00.303885Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:21:10.308574Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:21:14.392398Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:21:15.000648Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:21:15.000648Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:21:15.235255Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:21:15.235255Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:21:18.198582Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:21:18.198582Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:21:24.405764Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:21:28.496762Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:21:38.506810Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:21:42.587750Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:21:52.598080Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:21:56.674121Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:22:00.581924Z (0x000041d4) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:60106]: GET /current
+2022-10-24T23:22:06.687361Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:22:10.789523Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:22:20.801117Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:22:24.877035Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:22:30.596434Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:22:30.596434Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:22:30.596434Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:22:30.596434Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:22:30.845443Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-24T23:22:30.845443Z (0x000041d4) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-24T23:22:34.884136Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:22:38.988870Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-24T23:22:49.002217Z (0x000041d4) [info] : reconnect: retrying connection
+2022-10-24T23:22:53.109405Z (0x000041d4) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:40:55.085652Z (0x0000457c) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig: Starting agent on port 5000
+2022-10-25T15:40:55.101479Z (0x0000457c) [warning] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Cannot locate device name 'ur5e', trying default
+2022-10-25T15:40:55.101479Z (0x0000457c) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Assigning default device UR5e to adapter
+2022-10-25T15:40:55.101479Z (0x0000457c) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: shdr: Adding adapter for UR5e: ur5e
+2022-10-25T15:40:59.186471Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:40:59.506460Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61417]: GET /
+2022-10-25T15:41:06.445972Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61417]: GET /current
+2022-10-25T15:41:09.190238Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:41:13.258909Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:41:23.260243Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:41:26.817805Z (0x000046b0) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T15:41:26.975647Z (0x000046b0) [error] Connector::reader: An existing connection was forcibly closed by the remote host: An existing connection was forcibly closed by the remote host
+2022-10-25T15:41:26.975647Z (0x000046b0) [error] Connector::reader->Connector::reconnect->Connector::close: Closing localhost:7878 (Local Port:57516)
+2022-10-25T15:41:26.975647Z (0x000046b0) [info] Connector::reader->Connector::reconnect: reconnect: retry connection in 10000ms
+2022-10-25T15:41:29.512128Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:41:29.513048Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:41:29.765016Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:41:29.765016Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:41:36.449355Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:41:36.449355Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:41:36.983925Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:41:41.021424Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:41:51.032067Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:41:55.083951Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:42:05.089199Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:42:09.150028Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:42:19.153818Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:42:23.200212Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:42:33.213541Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:42:37.269324Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:42:47.275081Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:42:51.304994Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:43:01.314451Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:43:05.380136Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:43:15.387492Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:43:19.446510Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:43:29.456746Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:43:33.508940Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:43:43.520434Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:43:47.579805Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:43:57.593354Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:44:01.666421Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:44:11.673725Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:44:15.740523Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:44:25.748790Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:44:29.794420Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:44:39.796839Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:44:43.853922Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:44:53.860452Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:44:57.909107Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:45:07.917939Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:45:11.977034Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:45:21.977682Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:45:26.042920Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:45:36.046608Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:45:40.082037Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:45:50.090724Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:45:54.137801Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:46:04.141180Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:46:08.200562Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:46:18.213925Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:46:20.265911Z (0x000046b0) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T15:46:36.235079Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57622]: GET /current
+2022-10-25T15:46:37.775772Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57622]: GET /current
+2022-10-25T15:46:40.158107Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57622]: GET /current
+2022-10-25T15:46:51.215066Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57622]: GET /current
+2022-10-25T15:46:52.060230Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57622]: GET /current
+2022-10-25T15:46:52.890595Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57622]: GET /current
+2022-10-25T15:47:06.239440Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:47:06.239440Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:47:06.500157Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:47:06.500157Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:47:08.423946Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57622]: GET /current
+2022-10-25T15:47:38.429220Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:47:38.429220Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:47:38.739415Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:47:38.739415Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:47:40.751870Z (0x000046b0) [error] Connector::reader: An existing connection was forcibly closed by the remote host: An existing connection was forcibly closed by the remote host
+2022-10-25T15:47:40.751870Z (0x000046b0) [error] Connector::reader->Connector::reconnect->Connector::close: Closing localhost:7878 (Local Port:57617)
+2022-10-25T15:47:40.751870Z (0x000046b0) [info] Connector::reader->Connector::reconnect: reconnect: retry connection in 10000ms
+2022-10-25T15:47:50.754932Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:47:52.824532Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57634]: GET /current
+2022-10-25T15:47:54.813988Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:48:04.825472Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:48:08.881396Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:48:18.886801Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:48:22.835430Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:48:22.835430Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:48:22.835430Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:48:22.835430Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:48:22.978741Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:48:23.073948Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:48:23.074640Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:48:32.983659Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:48:37.045131Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:48:47.059403Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:48:51.132146Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:49:01.138787Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:49:05.184813Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:49:15.197566Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:49:19.238951Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:49:29.250852Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:49:33.314702Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:49:43.321188Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:49:47.379131Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:49:57.380049Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:50:01.439346Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:50:11.452335Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:50:15.527595Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:50:25.535341Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:50:29.606014Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:50:39.612956Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:50:43.682093Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:50:53.693668Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:50:57.749428Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:51:07.753208Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:51:11.819925Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:51:21.829715Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:51:25.891881Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:51:35.892735Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:51:39.966029Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:51:49.972726Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:51:54.031175Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:52:04.045372Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:52:08.117353Z (0x000046b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T15:52:18.124600Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:52:20.162004Z (0x000046b0) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T15:52:20.654643Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57693]: GET /current
+2022-10-25T15:52:30.432941Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57693]: GET /current
+2022-10-25T15:52:50.675496Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:52:50.676415Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:52:50.907839Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:52:50.907839Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:53:00.452119Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:53:00.452119Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:55:25.723927Z (0x000046b0) [error] Connector::reader: An existing connection was forcibly closed by the remote host: An existing connection was forcibly closed by the remote host
+2022-10-25T15:55:25.723927Z (0x000046b0) [error] Connector::reader->Connector::reconnect->Connector::close: Closing localhost:7878 (Local Port:57688)
+2022-10-25T15:55:25.723927Z (0x000046b0) [info] Connector::reader->Connector::reconnect: reconnect: retry connection in 10000ms
+2022-10-25T15:55:35.739688Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:55:37.774211Z (0x000046b0) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T15:55:46.456522Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57719]: GET /current
+2022-10-25T15:55:49.844055Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57719]: GET /current
+2022-10-25T15:56:16.457503Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:56:16.457503Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:56:16.711965Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:56:16.711965Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:56:19.853548Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:56:19.854511Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:57:13.601261Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57726]: GET /current
+2022-10-25T15:57:43.608572Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:57:43.608572Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:57:43.608572Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:57:43.608572Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:57:43.844886Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:57:43.844886Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:57:50.956570Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57736]: GET /current
+2022-10-25T15:57:56.803323Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57736]: GET /current
+2022-10-25T15:58:10.591912Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57736]: GET /current
+2022-10-25T15:58:14.280035Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57736]: GET /current
+2022-10-25T15:58:20.960368Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:58:20.961503Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:58:21.238559Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:58:21.238559Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:58:24.531113Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:58:24.531113Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T15:58:26.864285Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57746]: GET /current
+2022-10-25T15:58:56.867997Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:58:56.867997Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:58:56.867997Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:58:56.867997Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:58:57.130582Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T15:58:57.130582Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T15:59:11.123247Z (0x000046b0) [error] Connector::reader: An existing connection was forcibly closed by the remote host: An existing connection was forcibly closed by the remote host
+2022-10-25T15:59:11.123247Z (0x000046b0) [error] Connector::reader->Connector::reconnect->Connector::close: Closing localhost:7878 (Local Port:57715)
+2022-10-25T15:59:11.125803Z (0x000046b0) [info] Connector::reader->Connector::reconnect: reconnect: retry connection in 10000ms
+2022-10-25T15:59:21.127252Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T15:59:23.162090Z (0x000046b0) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T16:01:09.776744Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57771]: GET /current
+2022-10-25T16:01:09.966317Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57771]: GET /favicon.ico
+2022-10-25T16:01:09.966317Z (0x000046b0) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-25T16:01:09.966317Z (0x000046b0) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-25T16:01:09.966317Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: 172.22.238.142: Cannot find handler for: GET /favicon.ico
+2022-10-25T16:01:39.792871Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:01:39.792871Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:01:39.981812Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:01:39.982821Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:02:10.756870Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57777]: GET /current
+2022-10-25T16:02:18.376506Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57777]: GET /current
+2022-10-25T16:02:40.761879Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:02:40.761879Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:02:48.396282Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:02:48.396282Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:02:58.630007Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57781]: GET /current
+2022-10-25T16:03:06.517021Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57781]: GET /
+2022-10-25T16:03:22.920098Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57781]: GET /current
+2022-10-25T16:03:28.630104Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:03:28.630104Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:03:46.154662Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57781]: GET /current
+2022-10-25T16:04:06.253032Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57781]: GET /current
+2022-10-25T16:04:16.153911Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:04:16.153911Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:04:16.584184Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57781]: GET /current
+2022-10-25T16:04:25.759391Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57781]: GET /current
+2022-10-25T16:04:46.598632Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:04:46.598632Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:04:55.768636Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:04:55.769466Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:05:22.164401Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57791]: GET /current
+2022-10-25T16:05:52.176237Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:05:52.176237Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:05:52.177288Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:05:52.177288Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:06:33.255390Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57794]: GET /current
+2022-10-25T16:06:34.195827Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57794]: GET /current
+2022-10-25T16:06:34.907843Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57794]: GET /current
+2022-10-25T16:06:35.864757Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57794]: GET /current
+2022-10-25T16:06:53.658850Z (0x000046b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57794]: GET /current
+2022-10-25T16:07:03.257969Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:07:03.257969Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:07:23.676231Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:07:23.676231Z (0x000046b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:18:09.449064Z (0x000046b0) [error] Connector::reader: An existing connection was forcibly closed by the remote host: An existing connection was forcibly closed by the remote host
+2022-10-25T16:18:09.449064Z (0x000046b0) [error] Connector::reader->Connector::reconnect->Connector::close: Closing localhost:7878 (Local Port:57759)
+2022-10-25T16:18:09.454920Z (0x000046b0) [info] Connector::reader->Connector::reconnect: reconnect: retry connection in 10000ms
+2022-10-25T16:18:19.469705Z (0x000046b0) [info] : reconnect: retrying connection
+2022-10-25T16:18:31.876470Z (0x000029c8) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig: Starting agent on port 5000
+2022-10-25T16:18:31.891548Z (0x000029c8) [warning] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Cannot locate device name 'ur5e', trying default
+2022-10-25T16:18:31.891548Z (0x000029c8) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Assigning default device UR5e to adapter
+2022-10-25T16:18:31.891548Z (0x000029c8) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: shdr: Adding adapter for UR5e: ur5e
+2022-10-25T16:18:35.952893Z (0x000092b0) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:18:45.968677Z (0x000092b0) [info] : reconnect: retrying connection
+2022-10-25T16:18:47.999134Z (0x000092b0) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T16:18:52.431313Z (0x000092b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57875]: GET /current
+2022-10-25T16:19:22.439243Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:19:22.439243Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:19:22.447741Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:19:22.447741Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:19:28.342506Z (0x000092b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57879]: GET /current
+2022-10-25T16:19:58.347994Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:19:58.347994Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:19:58.347994Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:19:58.347994Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:21:10.373908Z (0x000092b0) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57885]: GET /current
+2022-10-25T16:21:40.388559Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:21:40.388559Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:21:40.388559Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:21:40.388559Z (0x000092b0) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:22:41.882551Z (0x00006cb8) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig: Starting agent on port 5000
+2022-10-25T16:22:41.887783Z (0x00006cb8) [warning] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Cannot locate device name 'ur5e', trying default
+2022-10-25T16:22:41.887783Z (0x00006cb8) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Assigning default device UR5e to adapter
+2022-10-25T16:22:41.887783Z (0x00006cb8) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: shdr: Adding adapter for UR5e: ur5e
+2022-10-25T16:22:43.954171Z (0x00006518) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T16:22:51.895687Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57893]: GET /current
+2022-10-25T16:23:15.758488Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57893]: GET /current
+2022-10-25T16:23:17.845727Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57893]: GET /current
+2022-10-25T16:23:18.832452Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57893]: GET /current
+2022-10-25T16:23:21.896462Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:23:21.897430Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:23:35.022309Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:23:35.022309Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:24:08.163707Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57900]: GET /current
+2022-10-25T16:24:09.735129Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57900]: GET /current
+2022-10-25T16:24:26.344090Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57900]: GET /current
+2022-10-25T16:24:38.164981Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:24:38.164981Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:24:50.493104Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57900]: GET /
+2022-10-25T16:24:56.697974Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [172.22.238.142:57900]: GET /
+2022-10-25T16:25:02.926452Z (0x00006518) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57908]: GET /
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:25:14.012946Z (0x00006518) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:27:26.095190Z (0x000082d4) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig: Starting agent on port 5000
+2022-10-25T16:27:26.110823Z (0x000082d4) [warning] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Cannot locate device name 'ur5e', trying default
+2022-10-25T16:27:26.110823Z (0x000082d4) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Assigning default device UR5e to adapter
+2022-10-25T16:27:26.110823Z (0x000082d4) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: shdr: Adding adapter for UR5e: ur5e
+2022-10-25T16:27:30.184360Z (0x00003cb8) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:27:33.649158Z (0x00003cb8) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57938]: GET /
+2022-10-25T16:27:33.805872Z (0x00003cb8) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57938]: GET /favicon.ico
+2022-10-25T16:27:33.805872Z (0x00003cb8) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-25T16:27:33.805872Z (0x00003cb8) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-25T16:27:33.805872Z (0x00003cb8) [warning] SessionImpl::requested->Session::fail: Operation failed: 127.0.0.1: Cannot find handler for: GET /favicon.ico
+2022-10-25T16:27:39.578832Z (0x00003cb8) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:27:39.578832Z (0x00003cb8) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:27:39.578832Z (0x00003cb8) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:27:39.578832Z (0x00003cb8) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:27:39.578832Z (0x00003cb8) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:27:39.578832Z (0x00003cb8) [warning] SessionImpl::requested->Session::fail: Closing: end of stream - end of stream
+2022-10-25T16:27:40.195508Z (0x00003cb8) [info] : reconnect: retrying connection
+2022-10-25T16:27:44.246539Z (0x00003cb8) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:27:54.260662Z (0x00003cb8) [info] : reconnect: retrying connection
+2022-10-25T16:27:58.316741Z (0x00003cb8) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:28:08.323692Z (0x00003cb8) [info] : reconnect: retrying connection
+2022-10-25T16:28:18.289511Z (0x0000748c) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig: Starting agent on port 5000
+2022-10-25T16:28:18.307898Z (0x0000748c) [warning] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Cannot locate device name 'ur5e', trying default
+2022-10-25T16:28:18.307898Z (0x0000748c) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: Assigning default device UR5e to adapter
+2022-10-25T16:28:18.307898Z (0x0000748c) [info] MAIN->AgentConfiguration::initialize->AgentConfiguration::loadConfig->AgentConfiguration::loadAdapters: shdr: Adding adapter for UR5e: ur5e
+2022-10-25T16:28:22.288290Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57972]: GET /
+2022-10-25T16:28:22.377505Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:28:22.454032Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57972]: GET /favicon.ico
+2022-10-25T16:28:22.454032Z (0x0000681c) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-25T16:28:22.454032Z (0x0000681c) [warning] SessionImpl::requested: Cannot find file: /favicon.ico
+2022-10-25T16:28:22.454032Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: 127.0.0.1: Cannot find handler for: GET /favicon.ico
+2022-10-25T16:28:32.384705Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:28:32.711267Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57972]: GET /
+2022-10-25T16:28:34.765011Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:57972]: GET /
+2022-10-25T16:28:36.426672Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:28:46.428917Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:28:50.506332Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:28:52.300635Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:28:52.300635Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:28:52.541589Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:28:52.541589Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:29:00.522437Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:29:04.571988Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:29:04.778543Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:29:04.779272Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:29:14.585600Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:29:18.646745Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:29:28.655377Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:29:32.693228Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:29:42.701183Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:29:46.742715Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:29:56.744865Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:29:58.766934Z (0x0000681c) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T16:30:06.447150Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61049]: GET /current
+2022-10-25T16:30:06.455169Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61049]: GET /current
+2022-10-25T16:30:36.459479Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:30:36.459479Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:30:36.618858Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:30:36.618858Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:30:36.698026Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:30:36.698026Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:30:52.654438Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61059]: GET /current
+2022-10-25T16:31:22.656639Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:31:22.657753Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:31:22.673658Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:31:22.673658Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:31:22.912565Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:31:22.912565Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:33:07.453950Z (0x0000681c) [error] Connector::reader: An existing connection was forcibly closed by the remote host: An existing connection was forcibly closed by the remote host
+2022-10-25T16:33:07.460350Z (0x0000681c) [error] Connector::reader->Connector::reconnect->Connector::close: Closing localhost:7878 (Local Port:61045)
+2022-10-25T16:33:07.460350Z (0x0000681c) [info] Connector::reader->Connector::reconnect: reconnect: retry connection in 10000ms
+2022-10-25T16:33:17.476483Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:33:19.508745Z (0x0000681c) [info] Connector::connected: Connected with: 127.0.0.1:7878
+2022-10-25T16:33:22.655089Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61077]: GET /current
+2022-10-25T16:33:52.656301Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:33:52.656301Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:33:52.672190Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:33:52.672190Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:33:52.910319Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:33:52.910319Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:34:16.031070Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61085]: GET /current
+2022-10-25T16:34:46.040618Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:34:46.040618Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:34:46.054913Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:34:46.054913Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:34:46.290766Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:34:46.290766Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:35:05.618109Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61091]: GET /current
+2022-10-25T16:35:35.619037Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:35:35.619037Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:35:35.634724Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:35:35.634724Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:35:35.886976Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:35:35.886976Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:36:43.129694Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:36:47.207959Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:36:48.251406Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:36:49.119350Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:36:49.787374Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:36:50.464795Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:36:51.381778Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:36:53.683058Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:10.557227Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:11.261420Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:11.950025Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:12.457342Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:12.911938Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:13.136747Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:37:13.136747Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:37:13.385229Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:37:13.385229Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:37:13.409208Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:14.609550Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:15.234251Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:15.832044Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:16.765745Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:17.675939Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:19.133647Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:20.186896Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:21.099147Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:21.827916Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:23.273415Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:24.206131Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:35.297642Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /sample
+2022-10-25T16:37:43.721212Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:37:43.721212Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:37:44.613266Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:45.544180Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:46.415453Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:47.739880Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:48.424502Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:49.038295Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:49.693413Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:50.302030Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:50.790651Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:51.342785Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:51.789226Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:52.308770Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:52.701603Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:53.108641Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:53.507276Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:53.912583Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:54.223694Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:54.619975Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:54.901470Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:55.255533Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:57.606682Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:58.164974Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:58.737592Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:37:59.311854Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:38:04.315158Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61109]: GET /current
+2022-10-25T16:38:14.932818Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:38:14.932818Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:38:34.334364Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:38:34.334364Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:39:05.549523Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61124]: GET /current
+2022-10-25T16:39:07.722830Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61124]: GET /current
+2022-10-25T16:39:12.964239Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61124]: GET /current
+2022-10-25T16:39:15.749833Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61124]: GET /current
+2022-10-25T16:39:25.475392Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61124]: GET /current
+2022-10-25T16:39:35.554431Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:39:35.554431Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:39:35.822014Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:39:35.822014Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:39:55.489000Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:39:55.489000Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:41:02.326131Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:10.819621Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:13.770109Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:14.837366Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:16.425743Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:17.396386Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:18.431094Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:19.597735Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:20.981211Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:23.117412Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61142]: GET /current
+2022-10-25T16:41:32.331806Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:41:32.331806Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:41:32.588841Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:41:32.588841Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:41:53.128154Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:41:53.128154Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:42:11.449623Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61387]: GET /current
+2022-10-25T16:42:41.453889Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:42:41.453889Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:42:41.456258Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:42:41.456258Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:42:41.724702Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:42:41.724702Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:42:57.165884Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:17.930869Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:18.684633Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:19.234252Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:19.991929Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:20.681953Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:21.259094Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:21.990257Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:22.562706Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:23.117577Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:23.722484Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:24.357875Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:25.171288Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:26.106292Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:26.859098Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:27.173340Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:43:27.173340Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:43:27.434651Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:43:27.434651Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:43:27.541347Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:28.142782Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:43.442052Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:52.045047Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:43:57.847768Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:43:57.847768Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:44:15.429131Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61394]: GET /current
+2022-10-25T16:44:45.436808Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:44:45.436808Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:44:45.753045Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:44:45.753045Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:44:54.641808Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61420]: GET /current
+2022-10-25T16:44:57.734892Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61420]: GET /current
+2022-10-25T16:45:04.212979Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61420]: GET /current
+2022-10-25T16:45:05.358576Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61420]: GET /current
+2022-10-25T16:45:06.365539Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61420]: GET /current
+2022-10-25T16:45:24.648077Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:45:24.648077Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:45:24.911925Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:45:24.911925Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:45:36.380507Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:45:36.380507Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:46:02.136263Z (0x0000681c) [info] SessionImpl::requested: ReST Request: From [127.0.0.1:61473]: GET /current
+2022-10-25T16:46:32.143034Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:46:32.143034Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:46:32.143034Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:46:32.143034Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:46:32.396810Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Operation failed: Could not read request
+2022-10-25T16:46:32.396810Z (0x0000681c) [warning] SessionImpl::requested->Session::fail: Closing: The socket was closed due to a timeout - The socket was closed due to a timeout
+2022-10-25T16:57:14.595808Z (0x0000681c) [error] Connector::reader: An existing connection was forcibly closed by the remote host: An existing connection was forcibly closed by the remote host
+2022-10-25T16:57:14.595808Z (0x0000681c) [error] Connector::reader->Connector::reconnect->Connector::close: Closing localhost:7878 (Local Port:61073)
+2022-10-25T16:57:14.595808Z (0x0000681c) [info] Connector::reader->Connector::reconnect: reconnect: retry connection in 10000ms
+2022-10-25T16:57:24.597437Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:57:28.633460Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:57:38.647513Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:57:42.680582Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:57:52.683163Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:57:56.741085Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
+2022-10-25T16:58:06.746156Z (0x0000681c) [info] : reconnect: retrying connection
+2022-10-25T16:58:10.792572Z (0x0000681c) [error] Connector::connected: No connection could be made because the target machine actively refused it: No connection could be made because the target machine actively refused it
