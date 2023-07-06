@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import rtde_receive as rtde
 import sys,os, time, math
 from threading import Thread
@@ -171,6 +173,6 @@ if __name__ == '__main__':
         "elbow_velocity",
         "safety_status_bits"
         ]
-    ur5e_api = rtde.RTDEReceiveInterface("169.254.39.203", 500, variables, True, False, -1)
+    ur5e_api = rtde.RTDEReceiveInterface("169.254.96.103", 500, variables, True, False, -1)
     adapter = Adapter(('0.0.0.0', 7878))
     ur5e = Device(adapter, ur5e_api)

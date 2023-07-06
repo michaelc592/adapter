@@ -194,4 +194,3 @@ class Adapter(ThreadingMixIn, TCPServer):
         bound = "--multiline--%s" % str(uuid.uuid4())
         text = "|@REMOVE_ALL_ASSETS@|%s" % assetId
         self.send(self.format_time(), text, self._clients.keys())
-
